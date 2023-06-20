@@ -197,7 +197,7 @@ img {
 /* selectors */
 
 .content-bg:nth-child(odd) {
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 .content-bg:nth-child(even) {
   background-color: white;
