@@ -120,12 +120,18 @@ a {
   background-size: cover;
 }
 
-.content-text {
+/* main content */
+
+img {
+  width: 100%;
+}
+
+.content-img {
   padding: var(--space-m);
   width: 70%;
   min-height: var(--min-heigh);
 }
-.content-img {
+.content-text {
   padding: var(--space-m);
   width: 30%;
   min-height: var(--min-heigh);
