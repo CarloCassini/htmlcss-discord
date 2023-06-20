@@ -44,6 +44,12 @@
 }
 
 /* content */
+
+.logo-font {
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
 .min-size {
   min-width: 300px;
   min-height: 300px;
