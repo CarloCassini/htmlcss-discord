@@ -193,6 +193,11 @@ li {
   margin: var(--space-m);
   list-style: none;
 }
+
+.flex.footer-content-regist {
+  flex-grow: 1;
+  text-align: right;
+}
 /* seleziona il titolo della lista */
 li:nth-child(1) {
   color: #7289da;
