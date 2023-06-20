@@ -81,6 +81,10 @@ a {
   background-color: white;
   color: var(--color-primary);
 }
+.btt-skyblue {
+  background-color: #8ea1e1;
+  color: var(--color-secondary);
+}
 
 .logo-font {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -137,8 +141,19 @@ img {
   min-height: var(--min-heigh);
 }
 
+/* recap */
 .recap {
+  text-align: center;
   width: 100%;
+}
+
+.recap > h3 {
+  display: inline-block;
+}
+.bg-stars {
+  background-image: url(../img/stars.svg);
+  /* background-repeat: no-repeat; */
+  background-size: contain;
 }
 
 /* footer */
