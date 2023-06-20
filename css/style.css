@@ -169,6 +169,29 @@ img {
   width: 25%;
 }
 
+.flag-size {
+  max-height: 1em;
+}
+
+.footer-list-h {
+  text-align: center;
+  max-height: 1em;
+  max-width: 1em;
+}
+
+.label-select {
+  min-height: 1em;
+}
+
+li {
+  color: white;
+  font-size: small;
+}
+/* seleziona il titolo della lista */
+li:nth-child(1) {
+  color: #7289da;
+}
+
 /* colori da tenere */
 .bg-header {
   background-color: #255ee9;
@@ -216,13 +239,4 @@ img {
 }
 .content-bg:nth-child(even) {
   background-color: white;
-}
-
-li {
-  color: white;
-  font-size: small;
-}
-/* seleziona il titolo della lista */
-li:nth-child(1) {
-  color: #7289da;
 }
