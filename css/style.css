@@ -183,9 +183,14 @@ img {
   min-height: 1em;
 }
 
+ul {
+  list-style: none;
+}
 li {
   color: white;
   font-size: small;
+  margin: var(--space-m);
+  list-style: none;
 }
 /* seleziona il titolo della lista */
 li:nth-child(1) {
