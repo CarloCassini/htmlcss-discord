@@ -43,12 +43,11 @@
   order: 9;
 }
 
-/* colors */
-.txt-2nd-color {
+/* content */
+a {
+  text-decoration: none;
   color: var(--color-secondary);
 }
-
-/* content */
 
 .logo-font {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -65,16 +64,17 @@
   width: 80%;
 }
 /*  header */
-.header-content-logo {
+.flex.header-content-logo {
   flex-grow: 1;
   text-align: left;
 }
-.header-content-login {
+.flex.header-content-login {
   flex-grow: 1;
   text-align: right;
 }
-.header-content-center {
+.flex.header-content-link {
   width: 60%;
+  justify-content: space-around;
 }
 
 .content-text {
@@ -138,6 +138,11 @@
 }
 .bg-greenyellow {
   background-color: greenyellow;
+}
+
+/* colors */
+.txt-2nd-color {
+  color: var(--color-secondary);
 }
 
 /* selectors */
