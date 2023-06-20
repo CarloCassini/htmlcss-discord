@@ -177,6 +177,9 @@ img {
   color: var(--color-secondary);
 }
 
+.bg-footer {
+  background-color: #23272a;
+}
 /* colori  x debug*/
 .bg-skyblue {
   background-color: skyblue;
@@ -202,9 +205,6 @@ img {
 .bg-tan {
   background-color: tan;
 }
-.bg-footer {
-  background-color: #23272a;
-}
 .bg-greenyellow {
   background-color: greenyellow;
 }
@@ -216,4 +216,13 @@ img {
 }
 .content-bg:nth-child(even) {
   background-color: white;
+}
+
+li {
+  color: white;
+  font-size: small;
+}
+/* seleziona il titolo della lista */
+li:nth-child(1) {
+  color: #7289da;
 }
