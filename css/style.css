@@ -211,9 +211,15 @@ li:nth-child(1) {
   color: var(--color-secondary);
 }
 
+.bg-wave {
+  background-color: f6f6f6;
+  filter: invert(100%);
+  height: 10px;
+}
 .bg-footer {
   background-color: #23272a;
 }
+
 /* colori  x debug*/
 .bg-skyblue {
   background-color: skyblue;
@@ -238,9 +244,6 @@ li:nth-child(1) {
 }
 .bg-tan {
   background-color: tan;
-}
-.bg-greenyellow {
-  background-color: greenyellow;
 }
 
 /* selectors */
