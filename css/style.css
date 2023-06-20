@@ -52,15 +52,30 @@ a {
 
 /* buttons */
 .btt-small {
-  background-color: white;
   border: none;
   border-radius: 30px;
-  color: var(--color-primary);
-  padding: var(--space-s);
+  padding: var(--space-s) var(--space-m);
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 0.9em;
+}
+.btt-big {
+  border: none;
+  border-radius: 30px;
+  padding: var(--space-s) var(--space-m);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+.btt-black {
+  background-color: #23272a;
+  color: var(--color-secondary);
+}
+.btt-white {
+  background-color: white;
+  color: var(--color-primary);
 }
 
 .logo-font {
@@ -76,6 +91,8 @@ a {
 
 .intro {
   width: 80%;
+  text-align: center;
+  color: var(--color-secondary);
 }
 /*  header */
 .flex.header-content-logo {
