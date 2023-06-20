@@ -43,6 +43,11 @@
   order: 9;
 }
 
+/* colors */
+.txt-2nd-color {
+  color: var(--color-secondary);
+}
+
 /* content */
 
 .logo-font {
