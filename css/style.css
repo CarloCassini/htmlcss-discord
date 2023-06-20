@@ -171,6 +171,7 @@ img {
 
 .flag-size {
   max-height: 1em;
+  margin-left: var(--space-s);
 }
 
 .footer-list-h {
