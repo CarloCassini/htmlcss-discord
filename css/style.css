@@ -91,6 +91,14 @@ a {
   justify-content: space-around;
 }
 
+/* # jumbotrone */
+
+.bg-jumbotrone {
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content-text {
   padding: var(--space-m);
   width: 70%;
@@ -119,10 +127,15 @@ a {
   width: 25%;
 }
 
-/* colori */
-.bg-lightblue {
-  background-color: lightblue;
+/* colori da tenere */
+.bg-header {
+  background-color: #255ee9;
 }
+.txt-2nd-color {
+  color: var(--color-secondary);
+}
+
+/* colori  x debug*/
 .bg-skyblue {
   background-color: skyblue;
 }
@@ -152,10 +165,6 @@ a {
 }
 .bg-greenyellow {
   background-color: greenyellow;
-}
-
-.txt-2nd-color {
-  color: var(--color-secondary);
 }
 
 /* selectors */
