@@ -211,11 +211,15 @@ li:nth-child(1) {
   color: var(--color-secondary);
 }
 
-.bg-wave {
-  background-color: f6f6f6;
-  filter: invert(100%);
-  height: 10px;
+.wave {
+  color: #f6f6f6;
+  /* display block per togliere la linea sotto l'immagine */
+  display: block;
 }
+.wave-rotate {
+  transform: rotate(180deg);
+}
+
 .bg-footer {
   background-color: #23272a;
 }
